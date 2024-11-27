@@ -1,0 +1,544 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "textoCpu",
+					"sid": 113662155829077,
+					"parameters": {
+						"text": "\"cpu\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 417205192540875
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "cpu",
+					"sid": 441483755965823,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 212565369704340,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "textoCpu",
+					"sid": 662847644762692,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 310339867777135
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "textoPlacaBase",
+					"sid": 540717096652650,
+					"parameters": {
+						"text": "\"placa base\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 872363451914342
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "placa",
+					"sid": 195704902762831,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 539422158595376,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "textoPlacaBase",
+					"sid": 573636383465552,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 587057411820583
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "textoRam",
+					"sid": 329596712849689,
+					"parameters": {
+						"text": "\"ram\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 461062858306268
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "ram",
+					"sid": 395419690906425,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "ram2",
+					"sid": 330559208045095,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 823802388833575,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "textoRam",
+					"sid": 400740075405790,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 941374931927628
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "textoDisipador",
+					"sid": 766035878894935,
+					"parameters": {
+						"text": "\"disipador\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 287408616852593
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "disipador",
+					"sid": 901182644028573,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 337572974337080,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "textoDisipador",
+					"sid": 355613864548721,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 691414876902488
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "textoGrafica",
+					"sid": 282063282952618,
+					"parameters": {
+						"text": "\"grafica\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 232845549596044
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "grafica",
+					"sid": 151795416004477,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 762199099455175,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "textoGrafica",
+					"sid": 716702140014311,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 369061179431845
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "textoFuente",
+					"sid": 724581396692955,
+					"parameters": {
+						"text": "\"psu\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 287637797234492
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "fuente",
+					"sid": 799996595070246,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 995968985165639,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "textoFuente",
+					"sid": 457887337239193,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 489087550353368
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "grafica",
+					"sid": 261558119681304,
+					"parameters": {
+						"object": "pegamentogpu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "grafica",
+					"sid": 798045790365447,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegamentogpu",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 445286911233111
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "placa",
+					"sid": 123511536479510,
+					"parameters": {
+						"object": "pegamentoplaca"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "placa",
+					"sid": 458058022861929,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegamentoplaca",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 378195545557246
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "cpu",
+					"sid": 847143727667190,
+					"parameters": {
+						"object": "pegamentocpu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "cpu",
+					"sid": 638928321272086,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegamentocpu",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 615240267502128
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "fuente",
+					"sid": 522207919565131,
+					"parameters": {
+						"object": "pegamentofuente"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "fuente",
+					"sid": 180743650280004,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegamentofuente",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 730769400766539
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "disipador",
+					"sid": 922493212563016,
+					"parameters": {
+						"object": "pegamentodisipador"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "disipador",
+					"sid": 681039498688137,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegamentodisipador",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 713227608322765
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ram",
+					"sid": 540334716553017,
+					"parameters": {
+						"object": "pegamentoram"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "ram",
+					"sid": 510653454607189,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegamentoram",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 757390587355460
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ram2",
+					"sid": 588441763624251,
+					"parameters": {
+						"object": "pegamentoram2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "ram2",
+					"sid": 428376829944457,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "pegamentoram2",
+						"image-point": "0",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 333635868443578
+		},
+		{
+			"eventType": "variable",
+			"name": "Aciertos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 598720287936458
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 862798990533512
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Texto",
+					"sid": 195073974436627,
+					"parameters": {
+						"text": "Aciertos"
+					}
+				}
+			],
+			"sid": 927066720489934
+		}
+	],
+	"sid": 647083985260190
+}
