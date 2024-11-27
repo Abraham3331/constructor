@@ -15,13 +15,6 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Shape3D",
-			"name": "Forma 3D",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -38,6 +31,13 @@
 			"type": "plugin",
 			"id": "TextBox",
 			"name": "Entrada de texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Fondo en mosaico",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -68,24 +68,19 @@
 			"ram",
 			"mesa",
 			"Mouse",
-			"textoGrafica",
 			"pegamentoplaca",
 			"pegamentogpu",
 			"ram2",
-			"textoPlacaBase",
-			"textoDisipador",
-			"textoCpu",
-			"textoRam",
-			"textoFuente",
+			"teclado",
 			"pegamentocpu",
 			"pegamentofuente",
 			"pegamentoram",
 			"pegamentoram2",
 			"pegamentodisipador",
-			"Texto",
-			"Texto2",
-			"Forma3D",
-			"Texto3"
+			"puntuacionNum",
+			"puntuacion",
+			"FondoEnMosaico",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -97,7 +92,8 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Escena 1",
+			"inicio"
 		],
 		"subfolders": []
 	},

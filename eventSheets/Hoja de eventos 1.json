@@ -6,8 +6,8 @@
 			"conditions": [
 				{
 					"id": "compare-text",
-					"objectClass": "textoCpu",
-					"sid": 113662155829077,
+					"objectClass": "teclado",
+					"sid": 408519007010904,
 					"parameters": {
 						"text": "\"cpu\"",
 						"case": "case-insensitive"
@@ -16,7 +16,7 @@
 				{
 					"id": "trigger-once-while-true",
 					"objectClass": "System",
-					"sid": 417205192540875
+					"sid": 887996059387124
 				}
 			],
 			"actions": [
@@ -37,14 +37,6 @@
 						"variable": "Aciertos",
 						"value": "1"
 					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "textoCpu",
-					"sid": 662847644762692,
-					"parameters": {
-						"mode": "disabled"
-					}
 				}
 			],
 			"sid": 310339867777135
@@ -54,7 +46,7 @@
 			"conditions": [
 				{
 					"id": "compare-text",
-					"objectClass": "textoPlacaBase",
+					"objectClass": "teclado",
 					"sid": 540717096652650,
 					"parameters": {
 						"text": "\"placa base\"",
@@ -87,9 +79,17 @@
 					}
 				},
 				{
+					"id": "set-visible",
+					"objectClass": "placa",
+					"sid": 387717267475092,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
 					"id": "set-enabled",
-					"objectClass": "textoPlacaBase",
-					"sid": 573636383465552,
+					"objectClass": "teclado",
+					"sid": 177243360468641,
 					"parameters": {
 						"mode": "disabled"
 					}
@@ -102,8 +102,8 @@
 			"conditions": [
 				{
 					"id": "compare-text",
-					"objectClass": "textoRam",
-					"sid": 329596712849689,
+					"objectClass": "teclado",
+					"sid": 685136691785487,
 					"parameters": {
 						"text": "\"ram\"",
 						"case": "case-insensitive"
@@ -142,14 +142,6 @@
 						"variable": "Aciertos",
 						"value": "1"
 					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "textoRam",
-					"sid": 400740075405790,
-					"parameters": {
-						"mode": "disabled"
-					}
 				}
 			],
 			"sid": 941374931927628
@@ -159,8 +151,8 @@
 			"conditions": [
 				{
 					"id": "compare-text",
-					"objectClass": "textoDisipador",
-					"sid": 766035878894935,
+					"objectClass": "teclado",
+					"sid": 279374738554004,
 					"parameters": {
 						"text": "\"disipador\"",
 						"case": "case-insensitive"
@@ -190,14 +182,6 @@
 						"variable": "Aciertos",
 						"value": "1"
 					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "textoDisipador",
-					"sid": 355613864548721,
-					"parameters": {
-						"mode": "disabled"
-					}
 				}
 			],
 			"sid": 691414876902488
@@ -207,8 +191,8 @@
 			"conditions": [
 				{
 					"id": "compare-text",
-					"objectClass": "textoGrafica",
-					"sid": 282063282952618,
+					"objectClass": "teclado",
+					"sid": 550510972156443,
 					"parameters": {
 						"text": "\"grafica\"",
 						"case": "case-insensitive"
@@ -238,14 +222,6 @@
 						"variable": "Aciertos",
 						"value": "1"
 					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "textoGrafica",
-					"sid": 716702140014311,
-					"parameters": {
-						"mode": "disabled"
-					}
 				}
 			],
 			"sid": 369061179431845
@@ -255,8 +231,8 @@
 			"conditions": [
 				{
 					"id": "compare-text",
-					"objectClass": "textoFuente",
-					"sid": 724581396692955,
+					"objectClass": "teclado",
+					"sid": 373972347304200,
 					"parameters": {
 						"text": "\"psu\"",
 						"case": "case-insensitive"
@@ -285,14 +261,6 @@
 					"parameters": {
 						"variable": "Aciertos",
 						"value": "1"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "textoFuente",
-					"sid": 457887337239193,
-					"parameters": {
-						"mode": "disabled"
 					}
 				}
 			],
@@ -353,6 +321,14 @@
 						"width-type": "no",
 						"height-type": "no",
 						"z": false
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "teclado",
+					"sid": 729405787675819,
+					"parameters": {
+						"mode": "enabled"
 					}
 				}
 			],
@@ -530,7 +506,7 @@
 			"actions": [
 				{
 					"id": "set-text",
-					"objectClass": "Texto",
+					"objectClass": "puntuacionNum",
 					"sid": 195073974436627,
 					"parameters": {
 						"text": "Aciertos"
